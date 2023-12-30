@@ -631,11 +631,20 @@
 
    ;; org-mode
    `(org-date ((t (:foreground ,atom-one-dark-cyan))))
-   `(org-document-info ((t (:foreground ,atom-one-dark-mono-2))))
-   `(org-document-info-keyword ((t (:inherit org-meta-line :underline t))))
-   `(org-document-title ((t (:weight bold))))
+   `(org-document-info ((t (:foreground ,atom-one-dark-mono-2 :height 1.35))))
+   `(org-document-info-keyword ((t (:inherit org-meta-line :height 1.35))))
+   `(org-document-title ((t (:weight bold :height 1.35))))
    `(org-footnote ((t (:foreground ,atom-one-dark-cyan))))
    `(org-sexp-date ((t (:foreground ,atom-one-dark-cyan))))
+   `(org-level-1 ((t (:foreground ,atom-one-dark-orange-1 :weight bold :height 1.3))))
+   `(org-level-2 ((t (:foreground ,atom-one-dark-red-1 :weight bold :height 1.2))))
+   `(org-level-3 ((t (:foreground ,atom-one-dark-purple :height 1.2))))
+   `(org-level-4 ((t (:foreground ,atom-one-dark-green :height 1.0))))
+   `(org-level-5 ((t (:foreground ,atom-one-dark-cyan ))))
+   `(org-level-6 ((t (:foreground ,atom-one-dark-red-2 ))))
+   `(org-level-7 ((t (:foreground ,atom-one-dark-blue ))))
+   `(org-level-8 ((t (:foreground ,atom-one-dark-orange-2 ))))
+   `(org-level-9 ((t (:foreground ,atom-one-dark-gray ))))
 
    ;; calendar
    `(diary ((t (:inherit warning))))
