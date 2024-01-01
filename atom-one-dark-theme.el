@@ -661,7 +661,7 @@
    `(mu4e-flagged-face ((,class (:foreground ,atom-one-dark-orange-1 :inherit nil))))
    `(mu4e-forwarded-face ((,class (:foreground ,atom-one-dark-purple :inherit nil))))
    `(mu4e-replied-face ((,class (:foreground ,atom-one-dark-green :inherit nil))))
-   `(mu4e-unread-face ((,class (:foreground ,atom-one-dark-fg :inherit nil))))
+   `(mu4e-unread-face ((,class (:foreground ,atom-one-dark-blue :inherit nil))))
    `(mu4e-cited-1-face ((,class (:inherit outline-1 :slant normal))))
    `(mu4e-cited-2-face ((,class (:inherit outline-2 :slant normal))))
    `(mu4e-cited-3-face ((,class (:inherit outline-3 :slant normal))))
