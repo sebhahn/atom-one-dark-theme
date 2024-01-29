@@ -628,6 +628,15 @@
    `(font-latex-doctex-preprocessor-face ((t (:foreground ,atom-one-dark-cyan))))
    `(font-latex-script-char-face ((t (:foreground ,atom-one-dark-mono-2))))
 
+   `(font-latex-doctex-documentation-face ((t (:background unspecified))))
+   `(font-latex-sedate-face               ((t (:foreground ,atom-one-dark-green))))
+   `(font-latex-slide-title-face          ((t (:inherit font-lock-type-face :weight bold :height 1.2))))
+   `(font-latex-string-face               ((t (:inherit font-lock-string-face))))
+   `(font-latex-subscript-face            ((t (:height 0.8))))
+   `(font-latex-superscript-face          ((t (:height 0.8))))
+   `(font-latex-warning-face              ((t (:inherit font-lock-warning-face))))
+   `(font-latex-math-face                 ((t (:foreground ,atom-one-dark-blue))))
+
    ;; org-mode
    `(org-date ((t (:foreground ,atom-one-dark-cyan))))
    `(org-document-info ((t (:foreground ,atom-one-dark-mono-2 :height 1.35))))
